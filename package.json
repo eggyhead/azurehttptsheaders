@@ -1,0 +1,33 @@
+{
+  "name": "http-headers-example",
+  "version": "1.0.0",
+  "description": "Azure Functions webpack sample for the Serverless framework using Typescript",
+  "scripts": {
+    "test": "jest --coverage --reporters=jest-nyan-reporter --reporters=default",
+    "start": "func host start"
+  },
+  "keywords": [
+    "azure",
+    "serverless"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@azure/functions": "^1.0.3",
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^13.1.8",
+    "babel-jest": "^26.6.3",
+    "fork-ts-checker-webpack-plugin": "^3.0.1",
+    "jest": "^26.6.3",
+    "jest-nyan-reporter": "^1.0.2",
+    "serverless-azure-functions": "^1.0.0",
+    "serverless-webpack": "^5.3.1",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
